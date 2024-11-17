@@ -11,54 +11,54 @@ A Flask-based web application that predicts employee salary based on experience,
 # Directory Structure
 project-folder/
 
-├── app.py             # Main Flask application
+    ├── app.py             # Main Flask application
 
-├── model.py           # Script to train the model
+    ├── model.py           # Script to train the model
 
-├── model.pkl          # Pre-trained machine learning model
+    ├── model.pkl          # Pre-trained machine learning model
 
-├── templates/         # HTML templates for the web app
+    ├── templates/         # HTML templates for the web app
 
 
-   └── index.html
+          └── index.html
 
-├── static/            # Static files (CSS/JS, if any)
+    ├── static/            # Static files (CSS/JS, if any)
 
-├── requirements.txt   # List of Python dependencies
+    ├── requirements.txt   # List of Python dependencies
 
 # How to Set Up and Run Locally
 
 1. Clone the repository:
 
-git clone https://github.com/jehmegh/salary-prediction-app.git
+       git clone https://github.com/jehmegh/salary-prediction-app.git
 
-cd salary-prediction-app
+       cd salary-prediction-app
 
 
 3. Install dependencies: Ensure you have Python 3.x installed. Then, run:
  
-   pip install -r requirements.txt
+       pip install -r requirements.txt
 
 
 4. Run the Flask app:
 
-   python app.py
+       python app.py
 
 
 5. Access the web application: Open your browser and navigate to:
 
-   http://127.0.0.1:5000/
+       http://127.0.0.1:5000/
 
 
 # How to Use
 
 1. Enter the following inputs in the web interface:
 
-   Experience: Number of years (e.g., 2 or five).
+   --> Experience: Number of years (e.g., 2 or five).
 
-   Test Score: Test score out of 10 (e.g., 8).
+   --> Test Score: Test score out of 10 (e.g., 8).
 
-   Interview Score: Score out of 10 (e.g., 6).
+   --> Interview Score: Score out of 10 (e.g., 6).
 
 3. Click the "Predict" button to calculate the predicted salary.
 
@@ -68,15 +68,15 @@ cd salary-prediction-app
 
 The project relies on the following Python libraries:
 
-Flask
+: Flask
 
-Numpy
+: Numpy
 
-Pandas
+: Pandas
 
-Scikit-learn
+: Scikit-learn
 
-Pickle
+: Pickle
 
 These dependencies are listed in the requirements.txt file.
 
